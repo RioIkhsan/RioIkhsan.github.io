@@ -1,0 +1,314 @@
+@import "bootstrap/dist/css/bootstrap.css";
+@import "animate.css/animate.css";
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:600,500,400,300");
+
+html {
+  scroll-behavior: smooth;
+}
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+nav a {
+  background-color: #4588ff;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: white;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100vh; /* Full height */
+  overflow: auto;
+  background-color: white; /* Fallback color */
+  background-color: rgba(255, 255, 255, 0.9); /* Black w/ opacity */
+}
+.menu ul {
+  text-align: center;
+  padding: 0;
+  list-style-type: none;
+}
+.menu span {
+  padding-right: 1.5rem;
+  font-size: 5rem;
+}
+button.bars {
+  height: 4rem;
+  width: 4rem;
+}
+
+.section-1 {
+  background: url(../images/ilustrasi.svg) center right/ 60% 80% no-repeat,
+    url(../images/white-decoration.svg) 90vw 50vh no-repeat,
+    url(../images/pojokkiriatas.svg) -450px -168px no-repeat,
+    url(../images/bg-section1.svg) no-repeat;
+}
+.section-2 {
+  background: url(../images/ilustrasi-about.svg) center right/ 60% 80% no-repeat,
+    url(../images/white-decoration.svg) 90vw 50vh no-repeat,
+    url(../images/pojokkiriatas.svg) -450px -168px no-repeat,
+    url(../images/bg-section1.svg) no-repeat;
+}
+.section-3 {
+  background: url(../images/ilustrasi-service.svg) center right/ 60% 80%
+      no-repeat,
+    url(../images/white-decoration.svg) 90vw 50vh no-repeat,
+    url(../images/pojokkiriatas.svg) -450px -168px no-repeat,
+    url(../images/bg-section1.svg) no-repeat;
+}
+.section-4 {
+  background: url(../images/ilustrasi-portfolio.svg) center right/ 60% 80%
+      no-repeat,
+    url(../images/white-decoration.svg) 90vw 50vh no-repeat,
+    url(../images/pojokkiriatas.svg) -450px -168px no-repeat,
+    url(../images/bg-section1.svg) no-repeat;
+}
+.section-pembuatan-website {
+  background: url(../images/bg-laptop.png) center no-repeat;
+}
+
+.section-digital-marketing {
+  background: url(../images/bg-chart.png) center no-repeat;
+}
+
+.section-implementasi-erp {
+  background: url(../images/bg-erp.png) center no-repeat;
+}
+
+.section-game-development {
+  background: url(../images/bg-game-dev.png) center no-repeat;
+}
+
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.decoration {
+  background: url(../images/white-decoration.svg) 90vw 70vh fixed no-repeat,
+    url(../images/white-decoration.svg) -5vw 10vh fixed no-repeat;
+}
+
+.decoration-reverse {
+  background: url(../images/white-decoration.svg) 90vw 15vh no-repeat,
+    url(../images/white-decoration.svg) -5vw 100% no-repeat;
+}
+
+.f-playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.f-muli {
+  font-family: "Muli", sans-serif;
+}
+.f-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.text-blue-stratech {
+  color: #005abb;
+}
+.text-gold {
+  color: gold;
+}
+
+.h-85 {
+  height: 85% !important;
+}
+.bg-blue-stratech {
+  background-color: #4588ff;
+}
+.bg-blue-soft {
+  background-color: #c0e9f9;
+}
+.bg-blue-light {
+  background-color: #f7f7ff;
+}
+.bg-custom {
+  border-radius: 20px;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto 400px;
+  height: 400px;
+}
+.bg-custom-extend {
+  border-radius: 20px;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto 400px;
+  height: 400px;
+}
+.bg-web {
+  background-image: url(../images/bg-web.png);
+  background-color: #ffdb9c;
+}
+.bg-desain {
+  background-image: url(../images/bg-desain.png);
+  background-color: #fca5ab;
+}
+.bg-odoo {
+  background-image: url(../images/bg-odoo.png);
+  background-color: #fca5ab;
+}
+.bg-market-digital {
+  background-image: url(../images/bg-market-digital.png);
+  background-color: #71b3ff;
+}
+.bg-game {
+  background-image: url(../images/bg-game.png);
+  background-color: #ffdb9c;
+}
+.bg-half {
+  background-image: linear-gradient(white 50%, #4588ff 50%);
+}
+.bg-half-reverse {
+  background-image: linear-gradient(#4588ff 50%, white 50%);
+}
+.border-radius-custom {
+  border-radius: 20px;
+}
+.border-radius-custom-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.border-radius-custom-bottom {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.border-radius-custom-left {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.border-radius-custom-right {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.nav-bg-none a {
+  background-color: transparent;
+}
+span.highlight {
+  background: linear-gradient(
+    rgba(224, 239, 255, 0) 50%,
+    rgba(224, 239, 255) 50%
+  );
+}
+
+#card-collection {
+  display: block;
+  overflow: auto;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+#card-collection .card {
+  width: 234px;
+  display: inline-block;
+  float: none;
+  white-space: normal;
+}
+
+#card-collection::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#card-collection::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+#card-collection::-webkit-scrollbar-thumb {
+  background: #5a82cf;
+}
+
+/* Handle on hover */
+#card-collection::-webkit-scrollbar-thumb:hover {
+  background: #005abb;
+}
+img.testimoni {
+  max-width: 100%;
+  height: 50%;
+}
+
+.form-control::-webkit-input-placeholder {
+  font-family: "Muli", sans-serif;
+}
+
+.form-control:-ms-input-placeholder {
+  font-family: "Muli", sans-serif;
+}
+
+.form-control:-moz-placeholder {
+  font-family: "Muli", sans-serif;
+}
+
+.form-control::-moz-placeholder {
+  font-family: "Muli", sans-serif;
+}
+
+.negative-z-index {
+  z-index: -1;
+}
+.negative-margin-top {
+  margin-top: -1.75rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .bg-custom {
+    background-position: 5vw;
+  }
+  .bg-custom-extend {
+    background-position: 50vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bg-custom {
+    background-position: 5vw;
+  }
+  .bg-custom-extend {
+    background-position: 10vw 15vh;
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  img.logo {
+    height: 90px;
+  }
+  .section {
+    background: url(../images/white-decoration.svg) 65vw 40vh no-repeat,
+      url(../images/pojokkiriatas.svg) -450px -168px no-repeat,
+      url(../images/pojokkiriatas.svg) 70vw 30vh/ 200% no-repeat;
+  }
+  .section .jumbotron {
+    margin-left: 1rem !important;
+  }
+  .bg-custom {
+    background-position: 5vw;
+  }
+  .bg-custom-extend {
+    background-position: 100px 210px;
+  }
+  img.testimoni {
+    height: auto;
+  }
+}
